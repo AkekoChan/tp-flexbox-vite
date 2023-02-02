@@ -1,0 +1,45 @@
+.bold{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.card__main{
+    &-hero_container{
+        max-width: 90%;
+        margin: 0 auto;
+        padding-top: 0.2rem;
+    }
+    &-hero_img_wrapper img{
+        display: inline-block;
+        margin-bottom: 0.2rem;
+        border: 6px solid;
+        border-image: linear-gradient(225deg, rgba(122,117,30,1) 0%, rgba(252,234,0,1) 100%) 30;
+    }       
+    &-hero_img_wrapper figcaption{
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 0.2rem 0;
+        text-align: center;
+        font-size: 0.7rem;
+        font-style: italic;
+        background: linear-gradient(225deg, rgba(122,117,30,1) 0%, rgba(252,234,0,1) 100%);
+    }
+    &-desc_container{
+        display: flex;
+        align-items: center;
+        margin: 2.8rem auto;
+        max-width: 90%;
+        line-height: 1.1rem;
+    }
+    &-type_wrapper{
+        margin-right: 0.2rem;
+    }
+    &-desc_wrapper{
+        flex-basis: 0;
+        flex-grow: 1;
+        font-size: 0.9rem;
+    }
+    &-degats_wrapper{
+        font-size: 1.6rem;
+        margin-left: 0.4rem;
+    }
+}

@@ -1,0 +1,22 @@
+@import 'vendors/reset.scss','header.scss','main.scss','footer.scss';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+:root{
+    --gold: #7A751E;
+    --yellow: #FCEA00;
+    --green: #9ACD32;
+    --red: #F05209;
+}
+*{
+    box-sizing: border-box;
+  } 
+html{
+      font-family: 'Noto Sans', sans-serif;
+      background-color: var(--green);
+      font-size: 100%;
+      border: 8px solid;
+      border-image: linear-gradient(225deg, rgba(122,117,30,1) 0%, rgba(252,234,0,1) 100%) 30;
+}
+img{
+      max-width: 100%;
+}
