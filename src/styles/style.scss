@@ -52,6 +52,10 @@ header {
       }
 }
 footer { 
+      border-top: solid 2px black;
+      max-width: 95%;
+      margin: 0 auto;
+
       @include landscape {
       grid-area: 2 / 2 / 3 / 3; 
       }

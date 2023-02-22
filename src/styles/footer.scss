@@ -1,29 +1,29 @@
-.card__footer{
+footer{
     border-top: solid 2px black;
     max-width: 95%;
     margin: 0 auto;
-        &-tw_container{
-            display: flex;
-            justify-content: space-between;
-            font-weight: bold;
-            font-size: 0.8rem;
-            padding-top: 0.2rem;
-                & div {
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                     & img {
-                        padding-top: 0.2rem;
-                     }
-                }
-        }
-        &-desc-wrapper{
-            max-width: 95%;
-            font-size: 0.7rem;
-            text-align: center;
-            margin: 0.2rem auto 0.8rem auto;
-            padding: 0.2rem 0;
-            border: 2px solid;
-            border-image: linear-gradient(225deg, rgba(122,117,30,1) 0%, rgba(252,234,0,1) 100%) 10;
-        }       
 }
+.types{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 0.8rem;
+    padding-top: 0.2rem;
+}
+.types__label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     & img {
+        padding-top: 0.2rem;
+        }
+    }
+.pokedex{
+    max-width: 95%;
+    font-size: 0.7rem;
+    text-align: center;
+    margin: 0.2rem auto 0.8rem auto;
+    padding: 0.2rem 0;
+    border: 2px solid;
+    border-image: linear-gradient(225deg, rgba(122,117,30,1) 0%, rgba(252,234,0,1) 100%) 10;
+}       

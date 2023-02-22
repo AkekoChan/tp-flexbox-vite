@@ -1,32 +1,32 @@
 @mixin landscape {
-    @media (orientation: landscape) {
-      @content;
-    }
+  @media (orientation: landscape) {
+    @content;
   }
-.card__header{
-    display: flex;
-    margin: 0 auto;
-    max-width: 90%;
-    @include landscape{
-        align-items: center;
-    }
-        &-subtitle{
-            font-size: 0.6rem;
-        }
-        &-title{
-            font-size: 1.4rem;
-            font-weight: bold;
-        }
-        &-pv-wrapper{
-            margin-left: auto;
-            display: flex;
-            align-items: flex-end;
-            @include landscape {
-                margin-left: 1.4rem
-            }
-        }
-        &-pv-text{
-            font-size: 1.4rem;
-            color: var(--red);
-        }
+}
+.header {
+  display: flex;
+  margin: 0 auto;
+  max-width: 90%;
+  @include landscape {
+    align-items: center;
+  }
+}
+.header__subtitle {
+  font-size: 0.6rem;
+}
+.header__title {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.header__wrapperHp {
+  margin-left: auto;
+  display: flex;
+  align-items: flex-end;
+  @include landscape {
+    margin-left: 1.4rem;
+  }
+}
+.header__textHp {
+  font-size: 1.4rem;
+  color: var(--red);
 }
